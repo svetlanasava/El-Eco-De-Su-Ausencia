@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Eco de su Ausencia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Página Principal -->
+    <section id="main" class="section active">
+        <div class="container">
+            <h1 class="main-title">El Eco de su Ausencia</h1>
+            
+            <div class="hotspots">
+                <a href="#intro" class="hotspot" id="hotspot-intro">
+                    <div class="hotspot-content">
+                        <h2>Introducción</h2>
+                    </div>
+                </a>
+                
+                <a href="#llamada" class="hotspot" id="hotspot-llamada">
+                    <div class="hotspot-content">
+                        <h2>La Última Llamada</h2>
+                    </div>
+                </a>
+                
+                <a href="#evidencias" class="hotspot" id="hotspot-evidencias">
+                    <div class="hotspot-content">
+                        <h2>Las Evidencias</h2>
+                    </div>
+                </a>
+                
+                <a href="#videodiario" class="hotspot" id="hotspot-videodiario">
+                    <div class="hotspot-content">
+                        <h2>El Videodiario</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Introducción -->
+    <section id="intro" class="section paper-texture">
+        <div class="section-container">
+            <a href="#main" class="back-button">← Volver</a>
+            
+            <div class="intro-content">
+                <div class="intro-image">
+                    <img src="intro.jpg" alt="Imagen de introducción">
+                </div>
+                
+                <div class="intro-text">
+                    <p>Enrique García desapareció sin dejar rastro.</p>
+                    
+                    <p>Apareció en Madrid hace cinco años. Nadie supo con certeza de dónde venía. No tenía redes sociales, ni familiares conocidos. Se instaló en un pequeño apartamento en Lavapiés, pagaba siempre en efectivo, y cambiaba con frecuencia de número de teléfono.</p>
+                    
+                    <p>Llevó una vida tranquila, casi invisible. Pero algo en su forma de moverse, de observar, de hablar en voz baja con desconocidos, sugería que estaba huyendo de alguien… o de algo.</p>
+                    
+                    <p>Esta página reúne los archivos encontrados tras su desaparición: notas escritas a mano, grabaciones parciales, videos, objetos personales.</p>
+                    
+                    <p>No es un informe oficial.</p>
+                    
+                    <p>Es un rompecabezas. Tal vez incompleto. Tal vez peligroso.</p>
+                    
+                    <p>Algunas piezas no encajan. Otras quizás nunca debieron encontrarse.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección La Última Llamada -->
+    <section id="llamada" class="section paper-texture">
+        <div class="section-container">
+            <a href="#main" class="back-button">← Volver</a>
+            
+            <div class="llamada-content">
+                <div class="evidence-container">
+                    <div class="llamada-image">
+                        <img src="seen.jpg" alt="Última vez visto">
+                    </div>
+                    
+                    <div class="llamada-text">
+                        <p>El sujeto fue visto por última vez en el metro de Plaza España.</p>
+                        <p>En las cámaras de seguridad parece nervioso, hablando con alguien al teléfono.</p>
+                        <p>Luego se le ha visto entrar por una puerta de personal.</p>
+                        <p>Antes de desaparecer, apagó la cámara.</p>
+                        <p>Pero el audio de la conversación fue grabado.</p>
+                        <p>En el sitio fue encontrado el móvil.</p>
+                    </div>
+                </div>
+
+                <div class="audio-evidence">
+                    <p class="mobile-evidence-note">Encontrado en el suelo, justo donde termina la cobertura de la cámara.</p>
+                    
+                    <div class="mobile-evidence-container">
+                        <div class="mobile-image">
+                            <img src="mobil.jpg" alt="Móvil encontrado">
+                        </div>
+                        <audio controls class="audio-player">
+                            <source src="llamada.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Las Evidencias -->
+    <section id="evidencias" class="section">
+        <div class="evidencias-container">
+            <a href="#main" class="back-button">← Volver</a>
+            
+            <div class="evidencias-content">
+                <div class="evidencias-background">
+                    <img src="pared.jpg" alt="Pared de evidencias" class="pared-image">
+                    <div class="board-overlay">
+                        <h2 class="evidencias-title">La pared de evidencias</h2>
+                        <img src="Board.jpg" alt="Tablero de evidencias" class="board-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección El Videodiario -->
+    <section id="videodiario" class="section paper-texture">
+        <div class="section-container">
+            <a href="#main" class="back-button">← Volver</a>
+            
+            <div class="videodiario-content">
+                <div class="videodiario-text">
+                    <p>No sé cuánto tiempo más pueda seguir con esto. Si algo me pasa, no fue un accidente. A veces siento que me siguen... pero tal vez soy yo el que ya no puede escapar de sí mismo</p>
+                </div>
+
+                <div class="video-container">
+                    <video controls class="video-player">
+                        <source src="video.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </div>
+
+                <p class="evidence-note">Encontrado escondido bajo una tabla del suelo, en lo que parecía un compartimento improvisado.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
